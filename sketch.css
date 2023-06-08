@@ -1,3 +1,53 @@
+.page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex-direction: column;*/
+
+    /*
+    justify-content:space-evenly;
+    align-items: center;*/
+    Height: 100%;
+    margin: 0;
+}
+
+.spacer{
+ margin-bottom: 10%;
+}
+/* .page-container > *{
+}*/
+
+
+.page-container > *{
+    flex-grow: 1;
+}
+
+
+.reset-button{
+    width: 50%;
+
+}
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
 .grid-container{
     display: flex;
     flex-wrap: wrap;
